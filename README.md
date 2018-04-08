@@ -1,8 +1,46 @@
 # React Native: Native Player
 
+### Android
+
+Add `react-native-player` to your `./android/settings.gradle` file as follows:
+
+```text
+include ':react-native-player'
+project(':react-native-player').projectDir = new File(settingsDir, '../node_modules/react-native-player/android/app')
+```
+
+Include it as dependency in `./android/app/build.gradle` file:
+
+```text
+dependencies {
+    ...
+    compile project(':react-native-player')
+}
+```
+
+Finally, you need to add the package within the `ReactInstanceManager` of your
+MainActivity (`./android/app/src/main/java/your/bundle/MainActivity.java`):
+
+```java
+import com.reactlibrary.PlayerPackage;  // <---- import this one
+...
+@Override
+protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+        new MainReactPackage(),
+        new PlayerPackage()  // <---- add this line
+    );
+}
+```
+
+After that, you will need to recompile
+your project with `react-native run-android`.
+
 ## Usage
 
-`import Player from 'react-native-player';`
+```javascript
+import Player from 'react-native-player';
+```
 
 - API Way
 
@@ -11,3 +49,6 @@ Player.play(url).then(a => {
   console.log(a);
 }).catch(e => console.log(e));
 ```
+
+## License
+The MIT License
