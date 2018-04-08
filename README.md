@@ -1,32 +1,13 @@
-# README #
+# React Native: Native Player
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Usage
 
-### What is this repository for? ###
+`import Player from 'react-native-player';`
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- API Way
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-
-import Player from 'react-native-player';
-Player.play(url).then(a => { console.log(a); }).catch(e => console.log(e));
+```javascript
+Player.play(url).then(a => {
+  console.log(a);
+}).catch(e => console.log(e));
+```
