@@ -10,17 +10,20 @@
 
 Add `react-native-player` to your `./android/settings.gradle` file as follows:
 
-```text
-include ':react-native-player'
-project(':react-native-player').projectDir = new File(settingsDir, '../node_modules/react-native-player/android/app')
+```diff
+...
+include ':app'
++ include ':react-native-player'
++ project(':react-native-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-player/android/app')
 ```
 
 Include it as dependency in `./android/app/build.gradle` file:
 
-```text
+```diff
 dependencies {
     ...
-    compile project(':react-native-player')
+    compile "com.facebook.react:react-native:+"  // From node_modules
++   compile project(':react-native-player')
 }
 ```
 
