@@ -1,5 +1,11 @@
 # React Native: Native Player
 
+[![github home](https://img.shields.io/badge/gaetanozappi-react--native--player-blue.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-player)
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-player.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-player/issues)
+
+-   [Usage](#usage)
+-   [License](#license)
+
 ### Android
 
 Add `react-native-player` to your `./android/settings.gradle` file as follows:
