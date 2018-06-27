@@ -1,7 +1,7 @@
 # React Native: Native Player
 
-[![github home](https://img.shields.io/badge/gaetanozappi-react--native--player-blue.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-player)
-[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-player.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-player/issues)
+[![github home](https://img.shields.io/badge/gaetanozappi-react--native--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-player)
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-player.svg?style=flat)](https://github.com/gaetanozappi/react-native-player/issues)
 
 ![PNG](screenshot/react-native-player.jpeg)
 
@@ -62,4 +62,4 @@ Player.play(url).then(a => {
 ```
 
 ## License
-The MIT License
+This library is provided under the Apache License.
