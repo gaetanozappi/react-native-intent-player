@@ -1,22 +1,24 @@
 # React Native: Native Intent Player
 
+[![github home](http://img.shields.io/npm/v/react-native-intent-player.svg?style=flat)](https://www.npmjs.com/package/react-native-intent-player)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--intent--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player)
 [![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-intent-player.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player/issues)
 
-![PNG](screenshot/react-native-player.jpeg)
+
+![PNG](screenshot/react-native-intent-player.jpeg)
 
 -   [Usage](#usage)
 -   [License](#license)
 
 ### Android
 
-Add `react-native-player` to your `./android/settings.gradle` file as follows:
+Add `react-native-intent-player` to your `./android/settings.gradle` file as follows:
 
 ```diff
 ...
 include ':app'
-+ include ':react-native-player'
-+ project(':react-native-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-player/android/app')
++ include ':react-native-intent-player'
++ project(':react-native-intent-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-intent-player/android/app')
 ```
 
 Include it as dependency in `./android/app/build.gradle` file:
@@ -25,7 +27,7 @@ Include it as dependency in `./android/app/build.gradle` file:
 dependencies {
     ...
     compile "com.facebook.react:react-native:+"  // From node_modules
-+   compile project(':react-native-player')
++   compile project(':react-native-intent-player')
 }
 ```
 
@@ -50,7 +52,7 @@ your project with `react-native run-android`.
 ## Usage
 
 ```javascript
-import Player from 'react-native-player';
+import Player from 'react-native-intent-player';
 ```
 
 - API Way
