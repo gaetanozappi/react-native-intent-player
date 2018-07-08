@@ -1,7 +1,7 @@
-# React Native: Native Player
+# React Native: Native Intent Player
 
-[![github home](https://img.shields.io/badge/gaetanozappi-react--native--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-player)
-[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-player.svg?style=flat)](https://github.com/gaetanozappi/react-native-player/issues)
+[![github home](https://img.shields.io/badge/gaetanozappi-react--native--intent--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player)
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-intent-player.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player/issues)
 
 ![PNG](screenshot/react-native-player.jpeg)
 
