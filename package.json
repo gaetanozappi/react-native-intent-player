@@ -1,11 +1,23 @@
 {
-  "name": "react-native-player",
-  "version": "1.0.0",
+  "name": "react-native-intent-player",
+  "version": "0.0.1",  
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaetanozappi/react-native-intent-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaetanozappi/react-native-intent-player/issues"
+  },
+  "homepage": "https://github.com/gaetanozappi/react-native-intent-player#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react-native"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "",
+  "peerDependencies": {}
 }
