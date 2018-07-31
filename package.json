@@ -1,7 +1,7 @@
 {
   "name": "react-native-intent-player",
-  "version": "0.0.2",  
-  "description": "",
+  "version": "0.0.3",  
+  "description": "It allows you to start a player for streaming a video via intent.",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaetanozappi/react-native-intent-player.git"
