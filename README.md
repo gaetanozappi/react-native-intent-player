@@ -1,4 +1,4 @@
-# React Native: Native Intent Player
+# React Native: react-native-intent-player
 
 [![github home](http://img.shields.io/npm/v/react-native-intent-player.svg?style=flat)](https://www.npmjs.com/package/react-native-intent-player)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--intent--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player)
