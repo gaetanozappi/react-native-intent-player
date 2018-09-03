@@ -1,9 +1,14 @@
 # React Native: react-native-intent-player
 
 [![github home](http://img.shields.io/npm/v/react-native-intent-player.svg?style=flat)](https://www.npmjs.com/package/react-native-intent-player)
+![platforms](https://img.shields.io/badge/platforms-Android-brightgreen.svg?style=flat&colorB=191A17)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--intent--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player)
-[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-intent-player.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player/issues)
+[![npm](https://img.shields.io/npm/dm/react-native-intent-player.svg?style=flat&colorB=007ec6)](https://www.npmjs.com/package/react-native-intent-player)
 
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-intent-player.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player/issues)
+[![github closed issues](https://img.shields.io/github/issues-closed/gaetanozappi/react-native-intent-player.svg?style=flat&colorB=44cc11)](https://github.com/gaetanozappi/react-native-intent-player/issues?q=is%3Aissue+is%3Aclosed)
+[![Issue Stats](https://img.shields.io/issuestats/i/github/gaetanozappi/react-native-intent-player.svg?style=flat&colorB=44cc11)](http://github.com/gaetanozappi/react-native-intent-player/issues)
+[![github license](https://img.shields.io/github/license/gaetanozappi/react-native-intent-player.svg)]()
 
 ![PNG](screenshot/react-native-intent-player.jpeg)
 
