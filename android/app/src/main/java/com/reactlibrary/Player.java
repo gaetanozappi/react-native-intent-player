@@ -53,7 +53,7 @@ public class Player extends ReactContextBaseJavaModule implements ActivityEventL
 
     @Override
     public String getName() {
-        return "MyNativeModule";
+        return "Player";
     }
 
     @Override
