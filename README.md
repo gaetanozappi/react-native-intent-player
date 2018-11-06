@@ -12,8 +12,8 @@
 
 ![PNG](screenshot/react-native-intent-player.jpeg)
 
--   [Usage](#usage)
--   [License](#license)
+-   [Usage](#-usage)
+-   [License](#-license)
 
 ## 📖 Getting started
 
