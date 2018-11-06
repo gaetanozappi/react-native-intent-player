@@ -15,7 +15,13 @@
 -   [Usage](#usage)
 -   [License](#license)
 
-### Android
+## 📖 Getting started
+
+`$ npm install react-native-intent-player --save`
+
+`$ react-native link react-native-intent-player`
+
+#### Android
 
 Add `react-native-intent-player` to your `./android/settings.gradle` file as follows:
 
@@ -54,19 +60,35 @@ protected List<ReactPackage> getPackages() {
 After that, you will need to recompile
 your project with `react-native run-android`.
 
-## Usage
+## 💻 Usage
 
 ```javascript
+import React, { Component } from 'react';
 import Player from 'react-native-intent-player';
+
+type Props = {};
+export default class App extends Component<Props> {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      url: 'https://www.w3schools.com/html/mov_bbb.mp4',
+    };
+  }
+
+  componentDidMount() {
+    Player.play(this.state.url)
+      .then(a => {
+        console.log(a);
+      })
+      .catch(e => console.log(e));
+  }
+
+  render() {
+    return null;
+  }
+}
 ```
 
-- API Way
-
-```javascript
-Player.play(url).then(a => {
-  console.log(a);
-}).catch(e => console.log(e));
-```
-
-## License
+## 📜 License
 This library is provided under the Apache License.
