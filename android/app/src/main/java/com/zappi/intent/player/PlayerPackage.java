@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.zappi.intent.player;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

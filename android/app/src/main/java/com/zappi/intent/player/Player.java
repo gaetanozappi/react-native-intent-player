@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.zappi.intent.player;
 
 import android.app.Activity;
 import android.content.Intent;

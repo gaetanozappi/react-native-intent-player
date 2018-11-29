@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.zappi.intent.player;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -192,7 +192,7 @@ public class SimpleVideoStream extends Activity implements
         // The screen size changed or the orientation changed... don't restart the activity
         super.onConfigurationChanged(newConfig);
     }
-    
+
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);

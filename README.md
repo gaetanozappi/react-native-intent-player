@@ -46,7 +46,7 @@ Finally, you need to add the package within the `ReactInstanceManager` of your
 MainActivity (`./android/app/src/main/java/your/bundle/MainActivity.java`):
 
 ```java
-import com.reactlibrary.PlayerPackage;  // <---- import this one
+import com.zappi.intent.player.PlayerPackage;  // <---- import this one
 ...
 @Override
 protected List<ReactPackage> getPackages() {
@@ -68,7 +68,7 @@ import Player from 'react-native-intent-player';
 
 type Props = {};
 export default class App extends Component<Props> {
-  
+
   constructor(props) {
     super(props);
     this.state = {
