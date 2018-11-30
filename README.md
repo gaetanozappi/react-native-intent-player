@@ -1,5 +1,6 @@
 # React Native: react-native-intent-player
 
+[![GitHub package version](https://img.shields.io/github/package-json/v/gaetanozappi/react-native-intent-player.svg?style=flat&colorB=2b7cff)](https://github.com/gaetanozappi/react-native-intent-player)
 [![github home](http://img.shields.io/npm/v/react-native-intent-player.svg?style=flat)](https://www.npmjs.com/package/react-native-intent-player)
 ![platforms](https://img.shields.io/badge/platforms-Android-brightgreen.svg?style=flat&colorB=191A17)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--intent--player-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-intent-player)
